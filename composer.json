@@ -1,4 +1,19 @@
 {
+  "name": "fetcher",
+  "type": "project",
+  "description" : "Fetcher for load data from site",
+
+  "autoload": {
+    "psr-4": {
+      "": [
+        "src/",
+        "tests/",
+        "bundles/app/src/",
+        "bundles/app/tests/"
+      ]
+    }
+  },
+
   "require": {
     "phpixie/framework" : "*"
   }
