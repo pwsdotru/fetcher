@@ -15,6 +15,13 @@
   },
 
   "require": {
-    "phpixie/framework" : "*"
+    "phpixie/framework" : "*",
+    "twitter/bootstrap" : "*"
+  },
+
+  "scripts": {
+    "post-update-cmd":[
+      "ln -sf vendor/twitter/bootstrap/dist web/assets/bootstrap"
+      ]
   }
 }
